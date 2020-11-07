@@ -1,4 +1,27 @@
 /*GLOBALS*/
 h1{
-    font-size: 14px;
+    font-size: 44px;
+    color: white;
 }
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 36px;
+    color: #1F3F68;    
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: space-around;
+    border: 40px solid white;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo{
+    
+    color: #316099;
