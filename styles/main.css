@@ -17,13 +17,14 @@ h4{
 
 /*HEADER*/
 header {
+    width: 100%;
+    height: 100px;
+    padding: 30px 100px;
     display: flex;
-    justify-content: space-around;
-    border: 40px solid white;
-    font-family: Helvetica;
-    font-style: normal;
+    justify-content: space-between;
+    align-content: center;
+    box-sizing: border-box;
     font-weight: bold;
-    font-size: 20px;
 }
 
 .logo{
