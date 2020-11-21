@@ -1,0 +1,14 @@
+/*Navegación del Blog*/
+
+nav ul{
+    display: flex;
+    padding-top: 5px;
+}
+
+nav a{
+    color: map-get($colors , f-black );
+}
+
+nav a:hover{
+    color: map-get($colors , a-hover );
+}

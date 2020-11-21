@@ -1,0 +1,25 @@
+/*All Articles*/
+
+.other-article{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+
+.other-article > div{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.other-article h3{
+    color: map-get($colors , a-hover );
+    @include font-h3(1.8rem,3rem,bold);
+}
+
+.other-article p{
+    color: rgba(0, 0, 0, 0.6);
+    @include font-h3(1.4rem,2.4rem,normal);
+    padding-right: 20px;
+}

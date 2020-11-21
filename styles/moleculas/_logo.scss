@@ -1,0 +1,41 @@
+/*Logo*/
+
+.logo{
+    position: relative;
+    font-family: 'helvetica';
+    height: 32px;
+}
+
+.capa{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.capa1{
+    background-color: map-get($colors , f-blue );
+}
+
+.capa2{
+    border: 1px solid map-get($colors , f-blue );
+    background-color: map-get($colors , f-white );
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.capa3{
+    background-color: map-get($colors , f-light-blue );
+}
+
+.capa2 p{
+    position: absolute;
+    left: 7px;
+    top: 4px;
+}
+
+.logo h2{    
+    position: absolute;
+    top: 2px;
+    left: 55px;
+}

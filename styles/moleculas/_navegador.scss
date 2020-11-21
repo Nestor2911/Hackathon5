@@ -1,0 +1,16 @@
+/*Navegación de Articulos*/
+
+.navegator{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.navegator a{
+    color: map-get($colors , f-blue2 );
+}
+
+.navegator span{
+    margin: 0 10px;
+}
